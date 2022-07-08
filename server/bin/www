@@ -1,0 +1,8 @@
+// if sockets are required for this project to function,
+// this file will serve as the point of execution for the server
+
+module.exports = (app) => {
+    app.listen(port, () => {
+        console.log("Listening on " + port);
+    })
+}
